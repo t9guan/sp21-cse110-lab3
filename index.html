@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang=”en”>
+<html>
     <head>
         <title>Journal Entries</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="favicon.ico">
+        <link href="favicon.ico" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -47,7 +47,7 @@
 
                     <section>
                         <div><b>Photo of the day</b></div>
-                        <img src="photos/gofundme.png">
+                        <img src="photos/gofundme.png" alt="picture">
                     </section>
 
                     <section>
@@ -60,7 +60,7 @@
                     <section>
                         <div><b>Music for the day</b></div>
                         <audio controls>
-                            <source src="audios/yt1s.com - Horimiya Opening FullYoh Kamiyama  Irokousui.mp3" type="audio/mpeg">
+                            <source src="audios/yt1s.com-HorimiyaOpeningFullYohKamiyamaIrokousui.mp3" type="audio/mpeg">
                         </audio>
                     </section>
                 </li>
@@ -80,7 +80,7 @@
 
                     <section>
                         <div><b>Photo of the day</b></div>
-                        <img src="photos/wallpaper.png">
+                        <img src="photos/wallpaper.png" alt="picture">
                     </section>
 
                     <section>
@@ -93,7 +93,7 @@
                     <section>
                         <div><b>Music for the day</b></div>
                         <audio controls>
-                            <source src="audios/yt1s.com - YOASOBI夜に駆ける Official Music Video.mp3" type="audio/mpeg">
+                            <source src="audios/yt1s.com-YOASOBI夜に駆けるOfficialMusicVideo.mp3" type="audio/mpeg">
                         </audio>
                     </section>
                 </li>
@@ -113,13 +113,13 @@
 
                     <section>
                         <div><b>Photo of the day</b></div>
-                        <img src="photos/anime.jfif">
+                        <img src="photos/anime.jfif" alt="picture">
                     </section>
 
                     <section>
                         <div><b>Video for the day</b></div>
                         <video controls>
-                            <source src="videos/yt1s.com - The Easy Guide On Seasoning and Restoring Cast Iron.mp4" type="video/mp4">
+                            <source src="videos/yt1s.com-TheEasyGuideOnSeasoningandRestoringCastIron.mp4" type="video/mp4">
                         </video>
                     </section>
 
@@ -140,29 +140,29 @@
             <form>
                 <fieldset>
                     <label for="je#">Journal Entry #</label>
-                    <input type="text" name="je#">
+                    <input type="text" name="je#" id="je#">
                     <br>
                     <label for="todaydate">Today's Date</label>
-                    <input type="date" name="todaydate">
+                    <input type="date" name="todaydate" id="todaydate">
                     <br>
                     <label for="para">Paragraph for the day:</label><br>
-                    <textarea name="para" rows="6" cols="100"></textarea>
+                    <textarea name="para" id="para" rows="6" cols="100"></textarea>
                     <br>
-                    <input type="checkbox" name="img">
+                    <input type="checkbox" name="img" id="img">
                     <label for="img">Image</label>
                     <br>
-                    <input type="checkbox" name="vid">
+                    <input type="checkbox" name="vid" id="vid">
                     <label for="vid">Video</label>
                     <br>
-                    <input type="checkbox" name="aud">
+                    <input type="checkbox" name="aud" id="aud">
                     <label for="aud">Audio</label>
                     <br>
                     <span>Did you have a good day?</span>
                     <br>
-                    <input type="radio" name="yes">
+                    <input type="radio" name="yes" id="yes"> 
                     <label for="yes">Yes</label>
                     <br>
-                    <input type="radio" name="no">
+                    <input type="radio" name="no" id="no"> 
                     <label for="no">No</label>
                     <br>
                     <input type="submit" value="Submit">
