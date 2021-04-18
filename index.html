@@ -4,10 +4,14 @@
         <title>Journal Entries</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="favicon.ico" rel="stylesheet">
+        <link href="index.css" rel="stylesheet">
+        <style>
+            header {font-size: 1cm;}
+        </style>
     </head>
+    
     <body>
-        <header>
+        <header id="headerlist">
             <div>Journal Entries</div>
             <nav>
                 <ul>
@@ -33,31 +37,34 @@
 
             <ol>
                 <li id="je1">
-                    <b>Journal Entry #1</b>
-                    <div>
+                    <div class="jtitle" id="jtitle1">
+                        <b>Journal Entry #1</b>
+                    </div>
+                    
+                    <div class="date" id="date1">
                         <i>Date: 4/9/2021</i>
                     </div>
 
-                    <section>
+                    <section class="para" id="para1">
                         <details>
                             <summary><span><em>Paragraph for the day</em></span></summary>
                             <p>Throughout today I did my work and attempted to work on my resume, since I haven't touched that thing in a while. One of my friends started a GoFundMe for her nonprofit organization. She explained that it is to raise money to put pepper sprays in the hands of our elderlies in SF and Oakland Chinatown. Since my parents owns a store with many asian employees, I instantly donated to the <a href="https://gofund.me/f127055d">Equip Our Elderly Project</a>. I also sent this link to friends and family to further spread the word as the rise in Asian hate crimes are increasing at an alarming speed.</p>
                         </details>
                     </section>
 
-                    <section>
+                    <section class="photo" id="photo1">
                         <div><b>Photo of the day</b></div>
                         <img src="photos/gofundme.png" alt="picture">
                     </section>
 
-                    <section>
+                    <section class="video" id="video1">
                         <div><b>Video for the day</b></div>
                         <video controls>
                             <source src="videos/yt1scom-day-in-the-life-of-a-michelin-star-chef_YY4kWOqY_Ee0J.mp4">
                         </video>
                     </section>
 
-                    <section>
+                    <section class="audio" id="audio1">
                         <div><b>Music for the day</b></div>
                         <audio controls>
                             <source src="audios/yt1s.com-HorimiyaOpeningFullYohKamiyamaIrokousui.mp3" type="audio/mpeg">
