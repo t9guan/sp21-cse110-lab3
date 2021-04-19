@@ -4,13 +4,13 @@ header, footer {
     border-width: 0;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1000px){ /*changes background color if width of screen is less than 1000px*/
     * {
         background-color: lightgray;
     }
 }
 
-a {
+a[target=_blank] {
     background-color: lightblue;
 }
 
@@ -26,7 +26,7 @@ h1 {
 }
 
 .date {
-    font-size: vmax;
+    font-size: 1vmax;
 }
 
 .jtitle{
@@ -65,3 +65,23 @@ section div{
     margin-bottom: 5%;
 }
 
+#je2 {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+#para2 {
+    font-size: 5ex;
+    display: block;
+    position: static;
+}
+
+#photo2 :hover {
+    height: 1000px;
+    width: 1000px;
+}
+
+#video2 :hover{
+    display: none;
+}
