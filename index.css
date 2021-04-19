@@ -83,5 +83,22 @@ section div{
 }
 
 #video2 :hover{
-    display: none;
+    display: block;
+}
+
+section > video {
+    display: relative;
+}
+
+section + img {
+    position: fixed;
+}
+
+section ~ audio {
+    height: 10vh;
+    width: 20vw;
+}
+
+section.audio {
+    background-color: rgb(blue, lightgray, brown);
 }
