@@ -1,0 +1,67 @@
+header, footer {
+    border: #000000;
+    border-style: dotted;
+    border-width: 0;
+}
+
+@media (max-width: 1000px){
+    * {
+        background-color: lightgray;
+    }
+}
+
+a {
+    background-color: lightblue;
+}
+
+#headerlist {
+    display: flex;
+    flex-wrap: wrap;
+    order: 3;
+    flex-grow: 2;
+}
+
+h1 {
+    text-align: center;
+}
+
+.date {
+    font-size: vmax;
+}
+
+.jtitle{
+    font-size: 17pt;
+}
+
+#para1 {
+    text-decoration: none;
+    color: blue;
+}
+
+.para :hover {
+    color: rgb(red, green, blue);
+    color: hsl(234, 45%, 72%);
+}
+
+section div{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.photo {
+    height: fit-content;
+    width: fit-content;
+    max-width: fit-content;
+    max-height: fit-content;
+    padding: top;
+    padding: bottom;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.video {
+    margin: top;
+    margin: bottom;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
